@@ -10,11 +10,7 @@
 **Intelligent Snake** is a reinforcement learning (RL) project that leverages a classic snake game environment built with [Pygame](https://www.pygame.org/) and a Deep Q-Network (DQN) agent implemented with [PyTorch](https://pytorch.org/). The project integrates state-of-the-art RL techniques, replay buffers, and a ZenML pipeline to train an agent that learns to play the snake game effectively. It also includes functionality to visualize and save gameplay videos for evaluation.
 
 Example of the model:
-<p align="center">
-
-  <img src="/assets/example.gif" alt="Snake RL Logo" width="300">
-
-</p>
+![A quick demo of the app](assets/example.gif)
 
 ---
 
