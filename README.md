@@ -11,7 +11,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 1. [Overview](#overview)
 2. [Project Structure](#project-structure)
@@ -26,7 +26,7 @@
 
 ---
 
-## 🚀 Overview
+## Overview
 
 **Intelligent Snake** combines a traditional snake game with modern reinforcement learning techniques. The core components include:
 
@@ -44,7 +44,7 @@
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 ```bash
 intelligent_snake/
@@ -61,7 +61,7 @@ intelligent_snake/
 
 ---
 
-## 🎮 Snake Game Environment
+## Snake Game Environment
 
 - **SNAKE Class:**  
   Handles the snake’s body, direction, movement logic, and image rendering (head, tail, and body segments).
@@ -74,7 +74,7 @@ intelligent_snake/
 
 ---
 
-## 🧠 Deep Q-Network (DQN) Agent
+## Deep Q-Network (DQN) Agent
 
 - **Neural Network:**  
   Fully connected layers with dropout and LeakyReLU to predict Q-values for 3 possible actions.
@@ -90,7 +90,7 @@ intelligent_snake/
 
 ---
 
-## 🔁 Training Pipeline (ZenML)
+## Training Pipeline (ZenML)
 
 - **ZenML Integration:**  
   Modular training setup with a ZenML pipeline defined in `pipelines/pipeline.py` and steps in `steps/`.
@@ -105,7 +105,7 @@ This trains the agent using the environment and stores checkpoints.
 
 ---
 
-## 🎥 Testing & Video Capture
+## Testing & Video Capture
 
 - **Script:** `test_agent.py`
 - **Functionality:**
@@ -121,7 +121,7 @@ python test_agent.py
 
 ---
 
-## ⚙️ Setup & Usage
+## Setup & Usage
 
 1. **Clone the Repository:**
 
@@ -150,7 +150,7 @@ python test_agent.py
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 - Python 3.12+
 - Pygame
@@ -167,13 +167,13 @@ pip install -r requirements.txt
 
 ---
 
-## 🪪 License
+## License
 
 This project is open-source and licensed under the MIT License.
 
 ---
 
-## 📚 References
+## References
 
 - [Pygame](https://www.pygame.org/)
 - [PyTorch](https://pytorch.org/)
